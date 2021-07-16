@@ -212,7 +212,8 @@ body {
     width: 100%;
 }
 
-.post-image span {
+.post-image span,
+.reference span {
     font-size: 10px;
     margin: 5px 0;
 }
