@@ -118,15 +118,15 @@ body {
 }
 
 .content a:hover {
-    color: #F1D302;
+    color: #000;
 }
 
 .text-content {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #fff;
-    opacity: 0.8;
+    background-color: #F1D302;
+    opacity: 0.9;
     padding: 8px 0;
 }
 
