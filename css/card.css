@@ -28,6 +28,72 @@
     transition: width 2s;
 }
 
+.card-wrapper-1,
+.card-wrapper-2,
+.card-wrapper-3,
+.card-wrapper-4,
+.card-wrapper-5,
+.card-wrapper-6,
+.card-wrapper-7,
+.card-wrapper-8 {
+    display: flex;
+    flex-direction: column;
+}
+
+
+.card-wrapper-1 {
+    background-image: url('../images/car-1.jpeg');
+}
+
+.card-wrapper-2 {
+    background-image: url('../images/car-2.jpeg');
+}
+
+.card-wrapper-3 {
+    background-image: url('../images/car-3.jpeg');
+}
+
+.card-wrapper-4 {
+    background-image: url('../images/car-4.jpeg');
+}
+
+.card-wrapper-5 {
+    background-image: url('../images/car-5.jpeg');
+}
+
+.card-wrapper-6 {
+    background-image: url('../images/car-6.jpeg');
+}
+
+.card-wrapper-7 {
+    background-image: url('../images/car-7.jpeg');
+}
+
+.card-wrapper-8 {
+    background-image: url('../images/car-8.jpeg');
+}
+
+.card-wrapper-1,
+.card-wrapper-2,
+.card-wrapper-3,
+.card-wrapper-4,
+.card-wrapper-5,
+.card-wrapper-6,
+.card-wrapper-7,
+.card-wrapper-8 {
+    background-repeat: no-repeat;
+    background-color: #B80C09;
+    background-position: center;
+    background-size: cover;
+}
+
+.card-wrapper-2 .text-content .title,
+.card-wrapper-5 .text-content .title,
+.card-wrapper-6 .text-content .title,
+.card-wrapper-7 .text-content .title {
+    font-size: 12px;
+}
+
 @media screen and (min-width: 992px) {
 
     .card-wrapper-1,
@@ -41,8 +107,6 @@
         width: 100%;
         height: auto;
         margin: 0;
-        /* border: 1px solid #000; */
-        /* margin-bottom: 20px; */
     }
 
     .card-wrapper-1 {
