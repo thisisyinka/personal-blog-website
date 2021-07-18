@@ -40,7 +40,7 @@
     flex-direction: column;
 }
 
-
+/*ALL IMAGES GOTTEN FROM PEXELS (https://www.pexels.com/search/cars/)*/
 .card-wrapper-1 {
     background-image: url('../images/car-1.jpeg');
 }
